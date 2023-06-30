@@ -1,0 +1,88 @@
+.project-card{
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.project-card h4{
+    background-color: #222;
+    color: #FFBB33;
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.project-card p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.project-card p span{
+    font-weight: bold;
+}
+.category-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.category-text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+.category-text .infra{
+    background-color: #FFAEBC;
+}
+.category-text .desenvolvimento{
+    background-color: #A0e7e5;
+}
+.category-text .design{
+    background-color: #b4f8c8;
+}
+.category-text .planejamento{
+    background-color: #FBE7C6;
+}
+
+.project-card-actions{
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.project-card-actions a,
+.project-card-actions button{
+    width: calc(50% - 4px);
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    cursor: pointer;
+    margin: 0 2px;
+    border: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.project-card-actions svg{
+    margin-right: .5em;
+}
+.project-card-actions a:hover,
+.project-card-actions button:hover{
+    background-color: #222;
+    color: #FFBB33;
+}

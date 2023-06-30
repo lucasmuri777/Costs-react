@@ -1,0 +1,35 @@
+.form_control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.form_control label{
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+/*Componente do input e do select*/
+.form_control input,.form_control select{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+
+.form_control input::placeholder{
+    color: #7b7b7b;
+}
+
+/*Componente do botão*/
+.btn{
+    background-color: #222;
+    color: white;
+    padding: 0.7em 1.2em ;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    color: #ffbb33;
+}
